@@ -145,7 +145,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActivePlay_State.cpp" />
+    <ClCompile Include="Ball.cpp" />
     <ClCompile Include="CPong.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="TitleScreen_State.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActivePlay_State.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Paddle.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="TitleScreen_State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
