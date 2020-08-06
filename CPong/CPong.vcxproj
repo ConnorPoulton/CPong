@@ -151,6 +151,7 @@
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Paddle.cpp" />
     <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
     <ClCompile Include="TitleScreen_State.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +160,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Paddle.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
     <ClInclude Include="TitleScreen_State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
